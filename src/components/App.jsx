@@ -1,7 +1,11 @@
+import Planner from "./Planner/Planner";
+
 const App = () => {
   return (
-    <div>App</div>
-  )
-}
+    <div>
+      <Planner />
+    </div>
+  );
+};
 
-export default App
+export default App;
